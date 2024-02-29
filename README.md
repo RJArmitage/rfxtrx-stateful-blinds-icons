@@ -1,12 +1,18 @@
+# What is it?
+
 Additional stateful blinds icons for use by the [**_RFXCOM RFXtrx Stateful Blinds_**](https://github.com/RJArmitage/rfxtrx-stateful-blinds) custom integration.
 
 # What does it do?
 
-The additional icons allow the **_RFXtrx Stateful Blinds_** integration to show the tilt state of Somfy venetian blinds and Louvolite vertical blinds.
+The additional icons allow the **_RFXtrx Stateful Blinds_** integration to show the tilt state of Somfy venetian blinds and Louvolite vertical blinds as well as the lift state on Somfy roller blinds.
 
 The Stateful Blinds integration allows Home Assistant to track whether or not the blinds are tilted and by how much. The Stateful Blinds Icons package provides icons that allow the integration to show the state of tilt as well as whether the blind is classed as "open" or "closed":
 
-<img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/venetian/active/20.svg" alt="MarineGEO circle logo" style="height: 75px; width:75px;"/> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/venetian/inactive/50.svg" alt="MarineGEO circle logo" style="height: 75px; width:75px;"/> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/vertical/active/25.svg" alt="MarineGEO circle logo" style="height: 75px; width:75px;"/> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/vertical/inactive/00.svg" alt="MarineGEO circle logo" style="height: 75px; width:75px;"/>
+<div style="text-align: center"><img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/venetian/active/50.svg" alt="Inactive fully tilted open venetian blind" style="height: 75px; width:75px;"/> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/venetian/inactive/20.svg" alt="Inactive partially tilted closed venetian blind" style="height: 75px; width:75px;"/> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/venetian/active/mid.svg" alt="Active partially lifted venetian blind" style="height: 75px; width:75px;"/> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/venetian/active/up.svg" alt="Active fully lifted venetian blind" style="height: 75px; width:75px;"/> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/vertical/active/25.svg" alt="Inactive partially fully tilted closed vertical blind" style="height: 75px; width:75px;"/> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/vertical/inactive/00.svg" alt="Inactive fully tilted closed vertical blind" style="height: 75px; width:75px;"/> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/vertical/active/50.svg" alt="Active fully tilted open vertical blind" style="height: 75px; width:75px;"/> </div>
+
+The package also provides icons that allow the integration to show the basic levl of lift of roller blinds as well as whether the blind is classed as "open" or "closed":
+
+<div style="text-align: center"> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/roller/active/99.svg" alt="Active fully opened roller blind" style="height: 75px; width:75px;"/> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/roller/inactive/50.svg" alt="Inactive partially closed roller blind" style="height: 75px; width:75px;"/> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/roller/inactive/00.svg" alt="Inactive fully closed roller blind" style="height: 75px; width:75px;"/> </div>
 
 # Why does it exist? Do I need it?
 
