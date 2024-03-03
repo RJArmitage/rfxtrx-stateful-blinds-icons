@@ -65,6 +65,6 @@ This is the recommended way to install rfxtrx-stateful-blinds-icons. To install:
 
 2. Restart Home Assistant.
 
-However you instakk this package, in order to make use of the icons you'll need to install the [**_RFXCOM RFXtrx Stateful Blinds_**](https://github.com/RJArmitage/rfxtrx-stateful-blinds) custom integration. As this replaces the standard **_RFXCOM RFXtrx_** integration it is not available in the default HACS Community Store. However it can be installed as a custom repository via HACS.
+However you install this package, in order to make use of the icons you'll need to install the [**_RFXCOM RFXtrx Stateful Blinds_**](https://github.com/RJArmitage/rfxtrx-stateful-blinds) custom integration. As this replaces the standard **_RFXCOM RFXtrx_** integration it is not available in the default HACS Community Store. However it can be installed as a custom repository via HACS.
 
 Check [**_RFXCOM RFXtrx Stateful Blinds_**](https://github.com/RJArmitage/rfxtrx-stateful-blinds) for details of how to install.
