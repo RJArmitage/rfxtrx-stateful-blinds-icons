@@ -4,13 +4,11 @@ Additional stateful blinds icons for use by the [**_RFXCOM RFXtrx Stateful Blind
 
 # What does it do?
 
-The additional icons allow the **_RFXtrx Stateful Blinds_** integration to show the tilt state of Somfy venetian blinds and Louvolite vertical blinds as well as the lift state on Somfy roller blinds.
-
-The Stateful Blinds integration allows Home Assistant to track whether or not the blinds are tilted and by how much. The Stateful Blinds Icons package provides icons that allow the integration to show the state of tilt as well as whether the blind is classed as "open" or "closed":
+The [**_RFXCOM RFXtrx Stateful Blinds_**](https://github.com/RJArmitage/rfxtrx-stateful-blinds) integration allows Home Assistant to track whether or not the Somfy or Louvolite blinds are tilted and by how much. This Stateful Blinds Icons package provides icons that allow the integration to show the state of tilt as well as whether the blind is classed as "open" or "closed":
 
 <div style="text-align: center"><img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/venetian/active/50.svg" alt="Inactive fully tilted open venetian blind" style="height: 75px; width:75px;"/> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/venetian/inactive/20.svg" alt="Inactive partially tilted closed venetian blind" style="height: 75px; width:75px;"/> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/venetian/active/mid.svg" alt="Active partially lifted venetian blind" style="height: 75px; width:75px;"/> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/venetian/active/up.svg" alt="Active fully lifted venetian blind" style="height: 75px; width:75px;"/> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/vertical/active/25.svg" alt="Inactive partially fully tilted closed vertical blind" style="height: 75px; width:75px;"/> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/vertical/inactive/00.svg" alt="Inactive fully tilted closed vertical blind" style="height: 75px; width:75px;"/> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/vertical/active/50.svg" alt="Active fully tilted open vertical blind" style="height: 75px; width:75px;"/> </div>
 
-The package also provides icons that allow the integration to show the basic levl of lift of roller blinds as well as whether the blind is classed as "open" or "closed":
+The package also provides icons that allow the integration to show the basic level of lift of Somfy roller blinds as well as whether the blind is classed as "open" or "closed":
 
 <div style="text-align: center"> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/roller/active/99.svg" alt="Active fully opened roller blind" style="height: 75px; width:75px;"/> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/roller/inactive/50.svg" alt="Inactive partially closed roller blind" style="height: 75px; width:75px;"/> <img src="https://raw.githubusercontent.com/RJArmitage/rfxtrx-stateful-blinds-icons/main/dist/icons/roller/inactive/00.svg" alt="Inactive fully closed roller blind" style="height: 75px; width:75px;"/> </div>
 
@@ -56,11 +54,17 @@ If you've read to here and still want to try it then installation is best done t
 
 This is the recommended way to install rfxtrx-stateful-blinds-icons. To install:
 
-- Open HACS (installation instructions are [here](https://hacs.xyz/docs/installation/installation/))
-- Go to "Frontend" section
-- Click the button with an "+" icon
-- Search for "RFXCOM RFXtrx Stateful Blind Icons" and install it
+1. Open HACS (installation instructions are [here](https://hacs.xyz/docs/installation/installation/))
+2. Go to "Frontend" section
+3. Click the button with an "+" icon
+4. Search for "RFXCOM RFXtrx Stateful Blind Icons" and install it
 
-However to make use of the icons you'll need to install the **_RFXCOM RFXtrx Stateful Blinds_** custom integration. As this replaces the standard **_RFXCOM RFXtrx_** integration it is not available in the default HACS Community Store.
+## Manual Installation
+
+1. Download the contents of the "`dist`" folder from this project into a new folder "`<config>/www/rfxtrx-stateful-blinds-icons`" where "`<config>`" is the directory where your "`configuration.yaml`" file is located - so for example "`/root/config/www/rfxtrx-stateful-blinds-icons`".
+
+2. Restart Home Assistant.
+
+However you instakk this package, in order to make use of the icons you'll need to install the [**_RFXCOM RFXtrx Stateful Blinds_**](https://github.com/RJArmitage/rfxtrx-stateful-blinds) custom integration. As this replaces the standard **_RFXCOM RFXtrx_** integration it is not available in the default HACS Community Store. However it can be installed as a custom repository via HACS.
 
 Check [**_RFXCOM RFXtrx Stateful Blinds_**](https://github.com/RJArmitage/rfxtrx-stateful-blinds) for details of how to install.
