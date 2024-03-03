@@ -1,5 +1,6 @@
 {
   "name": "RFXCOM RFXtrx Stateful Blinds Icons",
   "render_readme": true,
-  "filename": "rfxtrx-stateful-blinds-icons.js"
+  "filename": "rfxtrx-stateful-blinds-icons.js",
+  "hide_default_branch": true
 }
